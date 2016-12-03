@@ -1264,7 +1264,7 @@
 
 		#header .content {
 			border-style: dashed;
-			border-color: rgba(255, 255, 255, 0.3);
+			border-color: rgba(255, 255, 255, 0.2);
 			border-top-width: 2px;
 			border-bottom-width: 2px;
 			max-width: 100%;
