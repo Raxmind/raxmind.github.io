@@ -1292,8 +1292,8 @@
 
 			#header .content p {
 				text-transform: uppercase;
-				letter-spacing: 0.2rem;
-				font-size: 0.8rem;
+				letter-spacing: 0.1rem;
+				font-size: 1rem;
 				line-height: 2;
 			}
 
@@ -1311,7 +1311,7 @@
 
 			#header nav ul li {
 				padding-left: 0;
-				/* border-left: solid 1px #ffffff; */
+				/* border-left: dashed 2px #ffffff; */
 			}
 
 				#header nav ul li:first-child {
