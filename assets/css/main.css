@@ -182,7 +182,7 @@
 	}
 
 	p {
-		margin: 0 0 2rem 0;
+		margin: 0 0 1rem 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -200,7 +200,7 @@
 		}
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-			border-bottom: solid 2px #ffffff;
+			/* border-bottom: solid 2px #ffffff; */
 			width: -moz-max-content;
 			width: -webkit-max-content;
 			width: -ms-max-content;
@@ -218,7 +218,7 @@
 	h2 {
 		font-size: 1.5rem;
 		line-height: 1.4;
-		letter-spacing: 0.5rem;
+		letter-spacing: 0.3rem;
 	}
 
 	h3 {
@@ -272,7 +272,7 @@
 
 	code {
 		background: rgba(255, 255, 255, 0.075);
-		border-radius: 4px;
+		border-radius: 5px;
 		font-family: "Courier New", monospace;
 		font-size: 0.9rem;
 		margin: 0 0.25rem;
@@ -374,7 +374,7 @@
 		display: block;
 		font-size: 0.8rem;
 		font-weight: 300;
-		letter-spacing: 0.2rem;
+		letter-spacing: 0.1rem;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
 		text-transform: uppercase;
@@ -395,7 +395,7 @@
 		-ms-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		background: transparent;
-		border-radius: 4px;
+		border-radius: 5px;
 		border: solid 1px #ffffff;
 		color: inherit;
 		display: block;
