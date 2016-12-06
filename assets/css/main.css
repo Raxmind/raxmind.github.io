@@ -1119,7 +1119,7 @@
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background: url("../../images/bg.jpg") no-repeat center 0
+			background: url("../../images/bg.jpg") no-repeat center 0;
 			background-size: cover;
 			z-index: 1;
 		}
