@@ -1240,9 +1240,9 @@
 
 		#header .logo {
 			display: block;
-			width: 480px;
-			height: 239px;
-			background: url(https://static.warface.com/assets/img/opt/shared/_480x/rsz-warface-white.png) no-repeat 0 0;
+			width: 400px;
+			height: 199px;
+			background: url("../../images/logo.png") no-repeat 0 0;
 		}
 
 		#header .content {
