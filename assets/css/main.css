@@ -152,10 +152,9 @@
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: plumblight;
-		font-weight: 300;
+		font-family: plumbcondensedlight;
 		font-size: 1rem;
-		line-height: 1.65;
+		line-height: 1.40;
 	}
 
 	a {
@@ -182,7 +181,7 @@
 	}
 
 	p {
-		margin: 0 0 1rem 0;
+		margin: 0 0 0.8rem 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
