@@ -62,7 +62,7 @@
   height: 0px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #3f3f3f;
+  background: #737373;
   border: 0px none #4a4a4a;
   border-radius: 10px;
 }
@@ -102,7 +102,7 @@
 	}
 
 	body {
-		background: #1b1f22;
+		background: #191919;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after, body.is-switching *, body.is-switching *:before, body.is-switching *:after {
@@ -211,7 +211,6 @@
 	h1 {
 		font-size: 2.5rem;
 		line-height: 1.3;
-		letter-spacing: 1rem;
 	}
 
 	h2 {
@@ -1104,7 +1103,7 @@
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
+			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.3)), url("../../images/overlay.png");
 			background-size: auto, 256px 256px;
 			background-position: center, center;
 			background-repeat: no-repeat, repeat;
@@ -1120,10 +1119,8 @@
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
-			background-position: center;
+			background: url("../../images/bg.jpg") no-repeat center 0
 			background-size: cover;
-			background-repeat: no-repeat;
 			z-index: 1;
 		}
 
@@ -1233,17 +1230,6 @@
 			margin-top: 3.5rem;
 		}
 
-			#header > *:before {
-				content: '';
-				display: block;
-				position: absolute;
-				top: calc(-3.5rem - 1px);
-				left: calc(50% - 1px);
-				width: 1px;
-				height: calc(3.5rem + 1px);
-				/* background: #ffffff; */
-			}
-
 		#header > :first-child {
 			margin-top: 0;
 		}
@@ -1253,20 +1239,18 @@
 			}
 
 		#header .logo {
-			width: 6.5rem;
-			height: 5.5rem;
-			line-height: 6.5rem;
+			display: block;
+			width: 480px;
+			height: 239px;
+			background: url(https://static.warface.com/assets/img/opt/shared/_480x/rsz-warface-white.png) no-repeat 0 0;
 		}
 
-			#header .logo .icon:before {
-				font-size: 5rem;
-			}
-
 		#header .content {
-			border-style: dashed;
-			border-color: rgba(255, 255, 255, 0.2);
-			border-top-width: 2px;
-			border-bottom-width: 2px;
+			border-style: solid;
+			border-color: rgba(255, 255, 255, 0.1);
+			border-top-width: 1px;
+			border-bottom-width: 1px;
+			width: 80%;
 			max-width: 100%;
 		}
 
@@ -1292,7 +1276,6 @@
 				text-transform: uppercase;
 				letter-spacing: 0.1rem;
 				font-size: 1rem;
-				line-height: 2;
 			}
 
 		#header nav ul {
@@ -1401,14 +1384,9 @@
 				}
 
 			#header .logo {
-				width: 4.75rem;
-				height: 4.75rem;
-				line-height: 4.75rem;
+				width: auto;
+				height: auto;
 			}
-
-				#header .logo .icon:before {
-					font-size: 1.75rem;
-				}
 
 			#header .content .inner {
 				padding: 2.5rem 1rem;
@@ -1506,9 +1484,9 @@
 			position: relative;
 			width: 50rem;
 			max-width: 100%;
-			background-color: rgba(27, 31, 34, 0.7);
+			background-color: rgba(25, 25, 25, 0.6);
 			border-radius: 10px;
-			box-shadow: 0 0 30px #000;
+			box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
 			opacity: 0;
 		}
 
