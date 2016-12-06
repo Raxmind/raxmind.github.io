@@ -537,8 +537,6 @@
 		input[type="radio"]:checked + label:before {
 			background: #ffffff !important;
 			border-color: #ffffff !important;
-			color: #1b1f22;
-			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
