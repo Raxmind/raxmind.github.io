@@ -1379,11 +1379,6 @@
 					height: calc(2rem + 1px);
 				}
 
-			#header .logo {
-				width: auto;
-				height: auto;
-			}
-
 			#header .content .inner {
 				padding: 2.5rem 1rem;
 			}
@@ -1495,8 +1490,7 @@
 			}
 
 			#main article .close {
-				/* display: block; */
-				display: none;
+				display: block;
 				position: absolute;
 				top: 0;
 				right: 0;
