@@ -370,8 +370,7 @@
 	label {
 		color: #ffffff;
 		display: block;
-		font-size: 0.8rem;
-		font-weight: 300;
+		font-size: 1rem;
 		letter-spacing: 0.1rem;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
@@ -496,8 +495,7 @@
 			color: #ffffff;
 			cursor: pointer;
 			display: inline-block;
-			font-size: 0.8rem;
-			font-weight: 300;
+			font-size: 1rem;
 			margin: 0 0 0.5rem 0;
 			padding-left: 2.65rem;
 			padding-right: 0.75rem;
@@ -926,9 +924,10 @@
 
 		table th {
 			color: #ffffff;
-			font-size: 0.9em;
+			font-size: 1em;
 			font-weight: 600;
 			padding: 0 0.75em 0.75em 0.75em;
+			letter-spacing: 0.05rem;
 			text-align: left;
 		}
 
@@ -988,12 +987,11 @@
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.8rem;
-		font-weight: 300;
+		font-size: 1rem;
 		letter-spacing: 0.1rem;
-		line-height: 2.75rem;
+		line-height: 2.50rem;
 		outline: 0;
-		padding: 0 1.25rem 0 1.35rem;
+		padding: 0 1.20rem 0 1.30rem;
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
@@ -1041,7 +1039,7 @@
 		.button.special {
 			background-color: #ffffff;
 			color: #1b1f22 !important;
-			font-weight: 600;
+			font-family: plumbcondensedregular;
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -1065,7 +1063,7 @@
 	input[type="reset"],
 	input[type="button"],
 	button {
-		line-height: calc(2.75rem - 2px);
+		line-height: calc(2.50rem - 2px);
 	}
 
 /* BG */
