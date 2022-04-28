@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
 	<channel>
-		<ttl>60</ttl>
-		<atom:link rel="self" type="application/rss+xml" href="https://raxmind.github.io/streams.xml" />
 		<lastBuildDate>Thu, 03 Apr 2014 12:00:00 +0200</lastBuildDate>
 		<title>itpedia</title>
 		<itunes:author>Vitaliy Tkachuk</itunes:author>
