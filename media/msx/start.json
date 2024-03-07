@@ -25,6 +25,11 @@
 		"title":"Lampa",
          "image": "https://lampa.mx/msx-logo.png",
           "action": "link:http://bylampa.line.pm/"
-      }
+      },
+      {
+		"title":"Мой плейлист",
+	  "icon": "msx-white-soft:movie",
+          "action": "content:https://raxmind.github.io/media/playlist.m3u"
+      }   
    ]
 }
