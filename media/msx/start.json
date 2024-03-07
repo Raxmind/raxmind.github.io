@@ -1,1 +1,195 @@
-
+{
+  "name": "NoName Portal",
+    "type": "list",
+   "extension": "{ico:msx-white:event} {now:date:dd.mm.yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
+  "background": "https://raw.githubusercontent.com/nekto966/msx/main/img/bg.png", 
+  "headline": "NoName Media Station X App Store v.2",
+  "version": "1.0.0",
+  "parameter": "content:https://raw.githubusercontent.com/nekto966/msx/main/start.json",
+  "action": "[settings:validate_links:0|home]", 
+  "dictionary": "https://raw.githubusercontent.com/nekto966/msx/main/lang/ru.json",
+    "launcher": {
+        "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/noname.png"},
+   "template": {
+        "type": "separate",
+      "layout": "0,0,2,3",
+      "color": "msx-glass"
+   },
+   "items": [
+      {
+		"title":"Lampa",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/lampa.jpg",
+          "action": "link:http://lampa.mx/"
+      },
+      {
+		"title":"Atodo",
+         "image": "http://atodo.fun/assets/images/icon.png?v=0.1",
+          "action": "menu:request:interaction:menu@http://atodo.fun/fun.html"
+      },
+      {
+		"title":"VoKino",
+            "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/vokino.jpg",
+            "action": "link:http://web.vokino.tv/"
+      },
+      {
+		"title":"Deeplex",
+            "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/deep.png",
+            "action": "link:http://smart.deeplex.cc"
+      },
+      {
+		"title":"MOOVIES",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/imovies.png",
+         "action": "menu:request:interaction:init@http://moovies.fun/index.html"
+      },
+      {
+		"title":"KinoBoom",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/kb_msx_logo.png",
+         "action": "content:http://kb-team.club/msx/enter.php?welcome"
+      },
+      {
+		"title":"ForkPlayer",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/forknew.png",
+         "action": "link:http://browser.appfxml.com/"
+      },
+      {
+		"title":"Ott-play",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/ottplay.jpg",
+         "action": "link:http://ott-play.com/f/"
+      },
+      {
+		"title":"Ott-play FOSS",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/ott_foss.png",
+         "action": "link:http://ott.prog4food.eu.org/f/"
+      },
+      {
+		"title":"DRM-Play",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/drm_new.png",
+         "action":"execute:info:extended:http://drm-play.com/msx/data.php"
+      },
+      {
+		"title":"OTTplayer",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/ottplayer.png",
+         "action": "link:http://widget.ottplayer.tv"
+      },
+      {
+		"title":"XSmart",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/xsmart.png",
+         "action": "link:http://app.xsmart.tv"
+      },
+      {
+		"title":"Impire Boom",
+            "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/imboom.png",
+            "action": "link:http://web.imboom.ru/"
+      },
+      {
+		"title":"ICVA (Лампа ТВ)",
+            "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/icva.png",
+            "action": "link:http://icva.mx/"
+      },
+      {
+		"title":"HDGO",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/hdgo.png",
+          "action": "link:http://hdgo.me"
+      },
+      {
+		"title":"Dstore",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/dstore.png",
+         "action": "content:http://msx.lh1.in/msx/content.json"
+      },
+      {
+		"title":"Кинопаб",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/kp.png",
+         "action": "link:http://kpms.cc/"
+      },
+      {
+		"title":"Youtube",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/youtube.jpg",
+         "action": "link:http://www.youtube.com/tv#/"
+      },
+      {
+		"title":"Youtube Kids",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/ytkids.jpg",
+         "action": "link:https://www.youtube.com/tv/kids"
+      },
+      {
+		"title":"GetsTV",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/getstv.jpg",
+         "action": "link:http://getstv.ru/app/webos/index.html"
+      },
+      {
+		"title":"Tutkino",
+         "image": "http://msx.tutkino.fun/msx/tutkino.jpg",
+          "action": "link:http://web.tutkino.fun/"
+      },
+      {
+		"title":"Tutkino Lite",
+         "image": "http://msx.tutkino.fun/msx/tutkinolite.jpg",
+          "action": "link:http://lite.tutkino.fun/"
+      },
+      {
+		"title":"Tutkino MSX",
+         "image": "http://msx.tutkino.fun/msx/fptutkino.jpg",
+          "action": "content:http://msx.tutkino.fun/msx/?ch=enter"
+      },
+      {
+		"title":"Pxel TV",
+            "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/pxel.png",
+            "action": "link:http://app.pxel.tv/"
+      },
+      {
+		"title":"OVP",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/ovp.png",
+         "action": "link:http://tsnakeman.net.ua/lg/"
+      },
+      {
+		"title":"Qwedl Movies",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/qwedl.png",
+          "action": "link:https://movies.qwedl.com/"
+      },
+      {
+		"title":"Webvideocaster",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/Webvideocaster.png",
+          "action": "link:http://vewd.webvideocaster.com/"
+      },
+      {
+		"title":"RE! Music",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/remusic.png",
+         "action": "link:http://tvsam-02.ext.dc3.dailymotion.com/tvapps/dm_editor/app/index.php?id=098158d48c9e6edd&player=html5#fxm"
+      },
+      {
+		"title":"Radio Record",
+         "image": "http://www.radiorecord.ru/upload/stations_images/record_image600_gray_outline.png",
+          "action": "content:http://radio.nnmtv.site/rr.json"
+      },
+      {
+		"title":"myTuner",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/mytuner.png",
+         "action": "link:https://devices.mytuner.mobi/"
+      },
+      {
+		"title":"RadioPlayer",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/radioplayer.png",
+         "action": "link:http://tv.radioplayer.de/HiSense/"
+      },
+      {
+		"title":"Twitch",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/twitch.jpg",
+         "action": "link:http://webos.tv.twitch.tv/"
+      },
+      {
+		"title":"SS-IPTV",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/ssiptv.jpg",
+          "action": "link:http://app.ss-iptv.com/"
+      },
+      {
+		"title":"WEB MSX HTTP",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/msx.jpg",
+         "action": "link:http://msx.benzac.de?leave=1"
+      },
+      {
+		"title":"Telegram чат",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/telegram.jpg",
+          "action": "menu:https://raw.githubusercontent.com/nekto966/msx/main/tg.json"
+      }
+   ]
+}
