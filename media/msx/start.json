@@ -5,7 +5,7 @@
   "headline": "Media Station X",
   "version": "1.0.0",
   "parameter": "content:https://raxmind.github.io/media/msx/start.json",
-  "action": "[settings:validate_links:0|home]", 
+  "action": "[settings:validate_links:0|home]",
   "dictionary": "https://raxmind.github.io/media/msx/lang/ru.json",
    "template": {
         "type": "separate",
@@ -20,7 +20,7 @@
       {
 		"title":"Lampa",
          "image": "https://lampa.mx/msx-logo.png",
-          "action": "link:http://bylampa.line.pm/"
+          "action": "link:http://bylampa.line.pm"
       }
    ]
 }
