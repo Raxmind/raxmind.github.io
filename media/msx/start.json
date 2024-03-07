@@ -27,9 +27,9 @@
           "action": "link:http://bylampa.line.pm/"
       },
       {
-		"title":"Мой плейлист",
+		"title":"Плейлист",
 	  "icon": "msx-white-soft:movie",
-          "action": "content:http://msx.benzac.de/services/m3u.php?type=video&url=https://raxmind.github.io/media/playlist.m3u"
+          "action": "content:http://msx.benzac.de/services/m3u.php?headline=Плейлист&type=video&url=https://raxmind.github.io/media/playlist.m3u"
       }   
    ]
 }
