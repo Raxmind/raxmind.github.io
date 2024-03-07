@@ -2,14 +2,18 @@
   "name": "Media Station X",
     "type": "list",
    "extension": "{ico:msx-white:event} {now:date:dd.mm.yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
+   "background": "https://raw.githubusercontent.com/nekto966/msx/main/img/bg.png",
   "headline": "Media Station X",
   "version": "1.0.0",
   "parameter": "content:https://raxmind.github.io/media/msx/start.json",
   "action": "[settings:validate_links:0|home]",
   "dictionary": "https://raxmind.github.io/media/msx/lang/ru.json",
+  "launcher": {
+  "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/noname.png"},
    "template": {
         "type": "separate",
       "layout": "0,0,2,3",
+      "color": "msx-glass"
    },
    "items": [
       {
@@ -20,7 +24,7 @@
       {
 		"title":"Lampa",
          "image": "https://lampa.mx/msx-logo.png",
-          "action": "link:http://bylampa.line.pm"
+          "action": "link:http://bylampa.line.pm/"
       }
    ]
 }
