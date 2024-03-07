@@ -24,7 +24,7 @@
       {
 		"title":"Lampa",
          "image": "https://lampa.mx/msx-logo.png",
-          "action": "link:http://bylampa.line.pm/"
+          "action": "link:http://bylampa.line.pm/" 111
       }
    ]
 }
