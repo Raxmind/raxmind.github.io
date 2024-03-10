@@ -2,14 +2,11 @@
   "name": "Media Station X",
     "type": "list",
    "extension": "{ico:msx-white:event} {now:date:dd.mm.yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
-   "background": "https://raxmind.github.io/media/msx/img/bg.png",
   "headline": "Media Station X",
   "version": "1.0.0",
   "parameter": "content:https://raxmind.github.io/media/msx/start.json",
   "action": "[settings:validate_links:0|home]",
   "dictionary": "https://raxmind.github.io/media/msx/lang/ru.json",
-  "launcher": {
-  "image": "https://raxmind.github.io/media/msx/img/msx.png"},
    "template": {
         "type": "separate",
       "layout": "0,0,2,3",
@@ -23,12 +20,12 @@
       },
       {
 		"title":"Lampa",
-         "image": "https://lampa.mx/msx-logo.png",
+         "image": "http://bylampa.line.pm/msx-logo.png",
           "action": "link:http://bylampa.line.pm/"
       },
       {
 		"title":"Плейлист",
-	  "icon": "msx-white-soft:playlist-play",
+	  "icon": "msx-white:playlist-play",
           "action": "content:http://msx.benzac.de/services/m3u.php?headline=Плейлист&type=video&url=https://raxmind.github.io/media/playlist.m3u"
       }   
    ]
