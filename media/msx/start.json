@@ -19,6 +19,16 @@
           "action": "menu:request:interaction:menu@http://atodo.fun/fun.html"
       },
       {
+		"title":"Atodo WEB",
+         "image": "http://atodo.fun/assets/images/icon.png?v=0.1",
+          "action": "link:http://msx.atodo.fun/"
+      },
+      {
+		"title":"Test",
+         "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/noname.png",
+          "action": "content:https://raw.githubusercontent.com/nekto966/msx/main/start.json"
+      },
+      {
 		"title":"Lampa",
          "image": "http://lampa.mx/msx-logo.png",
           "action": "link:http://bylampa.line.pm/"
