@@ -13,9 +13,9 @@
       "color": "msx-glass"
    },
    "items": [
-/*  {
-		"title":"Atodo",
-         "image": "http://atodo.fun/assets/images/icon.png?v=0.1",
+//    {
+//		"title":"Atodo",
+	 "image": "http://atodo.fun/assets/images/icon.png?v=0.1",
           "action": "menu:request:interaction:menu@http://atodo.fun/fun.html"
       },
       {
