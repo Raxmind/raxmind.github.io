@@ -14,7 +14,12 @@
    },
    "items": [
       {
-		"title":"Лампа",
+		"title":"Atodo",
+         "image": "http://atodo.fun/assets/images/icon.png?v=0.1",
+          "action": "link:http://msx.atodo.fun/"
+      },
+      {
+		"title":"Lampa",
          "image": "http://lampa.mx/msx-logo.png",
           "action": "link:http://bylampa.line.pm/"
       },
