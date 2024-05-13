@@ -1,3 +1,5 @@
 {
+    "name": "Media Station X",
+    "version": "1.0.0",
     "parameter": "redirect:http://msx.benzac.de/?start=content:https://raxmind.github.io/media/msx/start.json"
 }
