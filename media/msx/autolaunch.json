@@ -1,0 +1,7 @@
+{
+    "name": "Media Station X",
+    "version": "1.0.0",
+	"parameter": "menu:https://raxmind.github.io/media/msx/autolaunch.json",
+	"action": "link:http://msx.benzac.de/?start=content:https://raxmind.github.io/media/msx/start_test.json",
+    "menu": []
+}
