@@ -6,7 +6,7 @@
   "version": "1.0.0",
   "parameter": "content:https://raxmind.github.io/media/msx/start.json",
   "action": "[settings:validate_links:0|home]",
-  "dictionary": "https://raxmind.github.io/media/msx/lang/ru.json",
+  "dictionary": "https://atodo.fun/msx/langs/ru.json",
    "template": {
         "type": "separate",
       "layout": "0,0,2,3",
