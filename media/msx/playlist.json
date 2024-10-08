@@ -39,10 +39,31 @@
     },
     {
       "id": "5",
-      "label": "Tizen Player Test",
+      "label": "MP4 Voidboost",
       "icon": "msx-white-soft:subtitles",
-      "playerLabel": "Tizen Player Test",
-      "action": "content:https://msx.benzac.de/info/xp/data/tizen_test.json"
+      "playerLabel": "MP4 Voidboost",
+      "action": "video:https://storm.stream.voidboost.cc/76cd8fb72903e511972e988eb79560c4:2024100906:Z3lRTnRwRzR5U1dIZWdSL3lpQ3c5c0lFRnVPcWpUQWg5aElpd3RvWFpYS3JPM0FqRWdrVEY5T2hHQUdRUVJROVUwc1VoTDdvcStnMEE0RzdLYmRCcWc9PQ==/1/1/4/0/8/3/5/p7zwx.mp4"
+    },
+    {
+      "id": "6",
+      "label": "HLS Voidboost",
+      "icon": "msx-white-soft:subtitles",
+      "playerLabel": "HLS Voidboost",
+      "action": "video:https://storm.stream.voidboost.cc/76cd8fb72903e511972e988eb79560c4:2024100906:Z3lRTnRwRzR5U1dIZWdSL3lpQ3c5c0lFRnVPcWpUQWg5aElpd3RvWFpYS3JPM0FqRWdrVEY5T2hHQUdRUVJROVUwc1VoTDdvcStnMEE0RzdLYmRCcWc9PQ==/1/1/4/0/8/3/5/p7zwx.mp4:hls:manifest.m3u8"
+    },
+    {
+      "id": "7",
+      "label": "MP4 prx-cogent",
+      "icon": "msx-white-soft:subtitles",
+      "playerLabel": "MP4 prx-cogent",
+      "action": "video:https://prx-cogent.ukrtelcdn.net/s__green/7e55facc8c2c482d355743f811df6f90:2024100906:Z3lRTnRwRzR5U1dIZWdSL3lpQ3c5czNmWnAvdDQwU0E1WXd1aWJISXFEVnFpbzlITlc0OGRwL1JMR2kxOVh0YW1qeCtxQjNxbzZrLzRnM3U1V25uMUE9PQ==/1/1/4/0/8/3/5/p7zwx.mp4"
+    },
+    {
+      "id": "8",
+      "label": "HLS prx-cogent",
+      "icon": "msx-white-soft:subtitles",
+      "playerLabel": "HLS prx-cogent",
+      "action": "video:https://prx-cogent.ukrtelcdn.net/s__green/7e55facc8c2c482d355743f811df6f90:2024100906:Z3lRTnRwRzR5U1dIZWdSL3lpQ3c5czNmWnAvdDQwU0E1WXd1aWJISXFEVnFpbzlITlc0OGRwL1JMR2kxOVh0YW1qeCtxQjNxbzZrLzRnM3U1V25uMUE9PQ==/1/1/4/0/8/3/5/p7zwx.mp4:hls:manifest.m3u8"
     }
   ],
   "template": {
