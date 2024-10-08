@@ -26,7 +26,7 @@
       {
 		"title":"Плейлист",
 	  "icon": "msx-white:playlist-play",
-          "action": "content:http://msx.benzac.de/services/m3u.php?headline=Плейлист&type=video&url=https://raxmind.github.io/media/playlist.m3u"
+          "action": "content:https://raxmind.github.io/media/msx/playlist.json"
       }   
    ]
 }
