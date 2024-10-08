@@ -36,6 +36,13 @@
       "icon": "msx-white-soft:smart-display",
       "playerLabel": "Откройте, полиция! 3 (2003)",
       "action": "video:https://dl.dropboxusercontent.com//scl/fi/frxa3x0t4ss7ep97xffbg/Les.Ripoux.3.2003.mp4?rlkey=nd7sqa3z8r18t8achrw1g35pg&dl=1"
+    },
+    {
+      "id": "5",
+      "label": "Tizen Player Test",
+      "icon": "msx-white-soft:subtitles",
+      "playerLabel": "Tizen Player Test",
+      "action": "content:https://msx.benzac.de/info/xp/data/tizen_test.json"
     }
   ],
   "template": {
