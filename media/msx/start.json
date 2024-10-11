@@ -27,11 +27,6 @@
 		"title":"Плейлист",
 	  "icon": "msx-white:playlist-play",
           "action": "content:https://raxmind.github.io/media/msx/playlist.json"
-      },
-      {
-		"title":"Rezka",
-         "image": "https://hdrezka.me/templates/hdrezka/images/hdrezka-logo.png",
-          "action": "link:https://hdrezka.me/"
       }
    ]
 }
