@@ -15,18 +15,18 @@
    "items": [
       {
 		"title":"Atodo",
-         "image": "http://atodo.fun/assets/images/icon.png?v=0.1",
+         "image": "https://raxmind.github.io/media/msx/img/atodo.png",
           "action": "link:http://msx.atodo.fun/"
       },
       {
 		"title":"Lampa",
-         "image": "http://bylampa.online/msx-logo.png",
+         "image": "https://raxmind.github.io/media/msx/img/bylampa.png",
           "action": "link:http://bylampa.online/"
       },
       {
 		"title":"Prisma",
-         "image": "http://prisma.ws/msx-logo.png",
-          "action": "link:http://prisma.ws/"
+         "image": "https://raxmind.github.io/media/msx/img/prisma.png",
+          "action": "link:https://prisma.ws/"
       },
       {
 		"title":"Плейлист",
