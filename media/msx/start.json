@@ -26,6 +26,11 @@
       {
 		"title":"Prisma",
          "image": "https://raxmind.github.io/media/msx/img/prisma.png",
+          "action": "link:http://prisma.ws/"
+      },
+      {
+		"title":"Prisma https://",
+         "image": "https://raxmind.github.io/media/msx/img/prisma.png",
           "action": "link:https://prisma.ws/"
       },
       {
