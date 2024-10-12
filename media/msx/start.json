@@ -29,11 +29,6 @@
           "action": "link:http://prisma.ws/"
       },
       {
-		"title":"Prisma https://",
-         "image": "https://raxmind.github.io/media/msx/img/prisma.png",
-          "action": "link:https://prisma.ws/"
-      },
-      {
 		"title":"Плейлист",
 	  "icon": "msx-white:playlist-play",
           "action": "content:https://raxmind.github.io/media/msx/playlist.json"
