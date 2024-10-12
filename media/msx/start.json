@@ -24,6 +24,11 @@
           "action": "link:http://bylampa.online/"
       },
       {
+		"title":"Prisma",
+         "image": "http://prisma.ws/msx-logo.png",
+          "action": "link:http://prisma.ws/"
+      },
+      {
 		"title":"Плейлист",
 	  "icon": "msx-white:playlist-play",
           "action": "content:https://raxmind.github.io/media/msx/playlist.json"
