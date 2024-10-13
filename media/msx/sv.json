@@ -21,8 +21,7 @@
          },
          "running": {
             "badge": "Проигрывается",
-            "badgeColor": "msx-blue",
-            "titleFooter": "{progress:time:hh:mm:ss}"
+            "badgeColor": "msx-blue"
          },
          "action": "player:show"
       },
