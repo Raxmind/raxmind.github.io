@@ -1,0 +1,57 @@
+{
+   "type": "list",
+   "headline": "Следствие вели",
+   "overlay": {
+      "items": []
+   },
+   "template": {
+      "type": "control",
+      "layout": "0,0,12,1",
+      "icon": "msx-white-soft:smart-display",
+      "color": "msx-glass",
+      "badge": "",
+      "alignment": "badge-right",
+      "progress": -1,
+      "live": {
+         "type": "playback",
+         "coming": {
+            "badge": "Продолжить",
+            "badgeColor": "msx-yellow",
+            "complete": {
+               "badge": "Просмотрено",
+               "badgeColor": "msx-green"
+            }
+         },
+         "running": {
+            "badge": "Проигрывается",
+            "badgeColor": "msx-blue",
+            "titleFooter": "{progress:time:hh:mm:ss}"
+         },
+         "action": "player:show"
+      },
+      "properties": {
+         "resume:key": "{context:resumeKey}",
+         "resume:context": "live_test"
+      }
+   },
+   "items": [
+      {
+         "resumeKey": "video1",
+         "label": "Video 1",
+         "playerLabel": "Video 1",
+         "action": "video:http://msx.benzac.de/media/video1.mp4"
+      },
+      {
+         "resumeKey": "video2",
+         "label": "Video 2",
+         "playerLabel": "Video 2",
+         "action": "video:http://msx.benzac.de/media/video2.mp4"
+      },
+      {
+         "resumeKey": "video3",
+         "label": "Video 3",
+         "playerLabel": "Video 3",
+         "action": "video:http://msx.benzac.de/media/video3.mp4"
+      }
+   ]
+}
