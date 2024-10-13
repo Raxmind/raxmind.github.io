@@ -1,9 +1,6 @@
 {
    "type": "list",
-   "headline": "Следствие вели",
-   "overlay": {
-      "items": []
-   },
+   "headline": "Следствие вели...",
    "template": {
       "type": "control",
       "layout": "0,0,12,1",
