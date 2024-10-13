@@ -73,6 +73,14 @@
          "label": "Тёщины тайны",
          "playerLabel": "Тёщины тайны",
          "action": "video:https://hydrus.sambray.org/8ee1648b2817eb7135c1492d80efdf74:2024101409:RUJ6OTlCdkV1MzZuUG5PU0V2L2pwOGJyaFE5WVVmM3lWNDFSWldUM0o5ZFZWTXEyeUVVV016c0xFQnFUTHY3QjlJTWxObUttUjNKc3lnMVBJd1FjdHc9PQ==/9/2/6/5/2/0/b9lqu.mp4"
+      },
+      {
+         "enumerate": false,
+         "type": "button",
+         "offset": "4,1,-8,0",
+         "icon": "blank",
+         "label": "Сбросить позиции",
+         "action": "resume:clear:context:live_test"
       }
    ]
 }
