@@ -34,7 +34,7 @@
           "action": "content:https://raxmind.github.io/media/msx/playlist.json"
       },
       {
-		"title":"Следствие вели",
+		"title":"Следствие вели...",
 	  "icon": "msx-white:playlist-play",
           "action": "content:https://raxmind.github.io/media/msx/sv.json"
       }
