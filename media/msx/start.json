@@ -15,14 +15,12 @@
    "items": [
       {
 		"title":"Избранное",
-	  "icon": "msx-white:playlist-play",
-          "iconSize": "large",
+	  "icon": "msx-white:star-border",
           "action": "content:https://raxmind.github.io/media/msx/favorites.json"
       },
       {
 		"title":"Плейлист",
 	  "icon": "msx-white:playlist-play",
-	  "iconSize": "large",
           "action": "content:https://raxmind.github.io/media/msx/playlist.json"
       }
    ]
