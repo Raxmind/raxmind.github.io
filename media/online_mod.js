@@ -15149,10 +15149,9 @@
         name: 'rezka',
         title: 'Voidboost',
         source: new rezka(this, object),
-        search: false,
-        kp: true,
+        search: true,
+        kp: false,
         imdb: true,
-        disabled: true
       }, {
         name: 'rezka2',
         title: 'HDrezka',
