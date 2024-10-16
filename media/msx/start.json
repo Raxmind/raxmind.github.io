@@ -14,10 +14,10 @@
    },
    "items": [
       {
-		"title":"Фильмы",
+		"title":"Избранное",
 	  "icon": "msx-white:playlist-play",
           "iconSize": "large",
-          "action": "content:https://raxmind.github.io/media/msx/films.json"
+          "action": "content:https://raxmind.github.io/media/msx/favorites.json"
       },
       {
 		"title":"Плейлист",
