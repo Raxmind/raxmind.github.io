@@ -14,29 +14,16 @@
    },
    "items": [
       {
-		"title":"Atodo",
-         "image": "https://raxmind.github.io/media/msx/img/atodo.png",
-          "action": "link:http://msx.atodo.fun/"
-      },
-      {
-		"title":"Lampa",
-         "image": "https://raxmind.github.io/media/msx/img/bylampa.png",
-          "action": "link:http://bylampa.online/"
-      },
-      {
-		"title":"Prisma",
-         "image": "https://raxmind.github.io/media/msx/img/prisma.png",
-          "action": "link:http://prisma.ws/"
+		"title":"Фильмы",
+	  "icon": "msx-white:playlist-play",
+          "iconSize": "large",
+          "action": "content:https://raxmind.github.io/media/msx/films.json"
       },
       {
 		"title":"Плейлист",
 	  "icon": "msx-white:playlist-play",
+	  "iconSize": "large",
           "action": "content:https://raxmind.github.io/media/msx/playlist.json"
-      },
-      {
-		"title":"Следствие вели...",
-	  "icon": "msx-white:playlist-play",
-          "action": "content:https://raxmind.github.io/media/msx/sv.json"
       }
    ]
 }
