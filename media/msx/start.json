@@ -8,8 +8,9 @@
   "action": "[settings:validate_links:0|home]",
   "dictionary": "http://atodo.fun/msx/langs/ru.json",
    "template": {
-        "type": "separate",
+      "type": "separate",
       "layout": "0,0,2,3",
+      "alignment": "title-center",
       "color": "msx-glass"
    },
    "items": [
