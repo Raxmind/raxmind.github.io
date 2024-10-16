@@ -15093,8 +15093,8 @@
       var filter = new Lampa.Filter(object);
       var balanser = Lampa.Storage.get('online_mod_balanser', 'videocdn') + '';
       var last_bls = Lampa.Storage.field('online_mod_save_last_balanser') === true ? Lampa.Storage.cache('online_mod_last_balanser', 200, {}) : {};
-      var use_stream_proxy = Lampa.Storage.field('online_mod_use_stream_proxy') === true;
-      var rezka2_fix_stream = Lampa.Storage.field('online_mod_rezka2_fix_stream') === true;
+      var use_stream_proxy = Lampa.Storage.field('online_mod_use_stream_proxy') === false;
+      var rezka2_fix_stream = Lampa.Storage.field('online_mod_rezka2_fix_stream') === false;
       var prefer_http = Lampa.Storage.field('online_mod_prefer_http') === true;
       var forcedQuality = '';
       var qualityFilter = {
