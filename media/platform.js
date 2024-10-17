@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    Lampa.Storage.set('platform', 'browser2'); })();
+    Lampa.Storage.set('platform', 'browser'); })();
 
 function createProperty(value) {
     var _value = value;
@@ -39,7 +39,6 @@ function makePropertyWritable(objBase, objScopeName, propName, initValue) {
             try {
                 objBase[objScopeName] = Object.create(objBase[objScopeName], initObj);
             } catch(e) {
-                // Workaround, but necessary to overwrite native host objects
             }
         }
     }
