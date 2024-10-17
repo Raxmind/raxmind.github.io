@@ -1,5 +1,5 @@
 (function () {
     'use strict';
 
-    Lampa.Platform.set('android');
+    Lampa.Platform.is('android');
 })();
