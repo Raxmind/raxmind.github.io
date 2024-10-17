@@ -1,7 +1,8 @@
 (function () {
     'use strict';
 
-    Lampa.Storage.set('platform', 'browser'); })();
+    Lampa.Storage.set('platform', 'browser');
+    Lampa.Storage.set('isTizen', 'false'); })();
 
 function createProperty(value) {
     var _value = value;
