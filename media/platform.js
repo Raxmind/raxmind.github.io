@@ -1,28 +1,15 @@
-/**
- * Creates a read/writable property which returns a function set for write/set (assignment)
- * and read/get access on a variable
- *
- * @param {Any} value initial value of the property
- */
+(function () {
+    'use strict';
+
+    Lampa.Storage.set('platform', 'browser2'); })();
+
 function createProperty(value) {
     var _value = value;
 
-    /**
-     * Overwrite getter.
-     *
-     * @returns {Any} The Value.
-     * @private
-     */
     function _get() {
         return _value;
     }
 
-    /**
-     * Overwrite setter.
-     *
-     * @param {Any} v   Sets the value.
-     * @private
-     */
     function _set(v) {
         _value = v;
     }
@@ -33,16 +20,6 @@ function createProperty(value) {
     };
 };
 
-/**
- * Creates or replaces a read-write-property in a given scope object, especially for non-writable properties.
- * This also works for built-in host objects (non-DOM objects), e.g. navigator. 
- * Optional an initial value can be passed, otherwise the current value of the object-property will be set.
- *
- * @param {Object} objBase  e.g. window
- * @param {String} objScopeName    e.g. "navigator"
- * @param {String} propName    e.g. "userAgent"
- * @param {Any} initValue (optional)   e.g. window.navigator.userAgent
- */
 function makePropertyWritable(objBase, objScopeName, propName, initValue) {
     var newProp,
         initObj;
@@ -70,6 +47,6 @@ function makePropertyWritable(objBase, objScopeName, propName, initValue) {
 
 makePropertyWritable(window, "navigator", "userAgent");
 
-window.navigator.userAgent = "BlackBerry8520/5.0.0.681 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/114";
+window.navigator.userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36";
 
 console.log(window.navigator.userAgent);
