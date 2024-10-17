@@ -1,5 +1,5 @@
 (function () {
     'use strict';
 
-    Lampa.Storage.set('platform', 'android');
+    Lampa.Storage.set('platform', 'browser');
 })();
