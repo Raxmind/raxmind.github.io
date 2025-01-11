@@ -4,7 +4,7 @@
     Lampa.Listener.follow('full', function(e) {
         if (e.type == 'complite') {
             $(".view--trailer").each(function(){var div = $(this).parent('div');div.find('.open--menu').insertBefore($(this))});
-			$(".selectbox-item > .selectbox-item__subtitle",Lampa.Activity.active().activity.render()).css({'display':'none'});
+			$(".selectbox-item__subtitle",Lampa.Activity.active().activity.render()).css({'font-size':'0px'});
 
 			setTimeout(function(){
 				$(".view--online",Lampa.Activity.active().activity.render()).empty().append("<svg viewBox='0 0 847 847' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' shape-rendering='geometricPrecision' text-rendering='geometricPrecision' image-rendering='optimizeQuality' fill-rule='evenodd' clip-rule='evenodd'><circle cx='423' cy='423' r='398' fill='#756f6f' class='fill-1fc255'></circle><path d='M642 423 467 322 292 221v404l175-101z' fill='#ffffff' stroke='#ffffff' stroke-width='42.33' stroke-linejoin='round' class='fill-ffffff stroke-ffffff'></path></svg><span>Онлайн</span>");
