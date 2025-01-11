@@ -4,6 +4,7 @@
     Lampa.Listener.follow('full', function(e) {
         if (e.type == 'complite') {
             $(".view--trailer").each(function(){var div = $(this).parent('div');div.find('.open--menu').insertBefore($(this))});
+            $(".selectbox-item__subtitle").each(function(){var div = $(this).parent('div');div.find('.open--menu').insertBefore($(this))});
 			$(".selectbox-item__subtitle",Lampa.Activity.active().activity.render()).css({'font-size':'0px'});
 
 			setTimeout(function(){
