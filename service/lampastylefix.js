@@ -1,8 +1,6 @@
 (function() {
     'use strict';
 
-    Lampa.Storage.set('player_hls_method', 'hlsjs');
-
     Lampa.Listener.follow('full', function(e) {
         if (e.type == 'complite') {
             $(".view--trailer").each(function(){var div = $(this).parent('div');div.find('.open--menu').insertBefore($(this))});
