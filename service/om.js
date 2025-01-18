@@ -10506,7 +10506,7 @@
         }
 
         if (url && rezka2_fix_stream && name === 'rezka2') {
-          return url.replace(/\/\/(stream\.voidboost\.(cc|top|link|club)|[^\/]*.ukrtelcdn.net|vdbmate.org|sambray.org|femeretes.org)\//, '//apn.watch/prx2-ams.ukrtelcdn.net/');
+          return url.replace(/\/\/(stream\.voidboost\.(cc|top|link|club)|[^\/]*.ukrtelcdn.net|vdbmate.org|sambray.org|femeretes.org)\//, '//apn2.akter-black.com/https://prx2-ams.ukrtelcdn.net/');
         }
 
         return url;
