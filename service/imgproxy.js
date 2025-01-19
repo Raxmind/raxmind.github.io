@@ -7,14 +7,16 @@
         // Прокси-домен
         const proxyUrl = "https://cors.fenixx04412.workers.dev/";
 
-        // Адрес, который нужно проксировать
-        const targetUrl = "https://kinopoiskapiunofficial.tech/images/";
+        // Домен, который нужно проксировать
+	const targetDomain = "kinopoiskapiunofficial.tech";
 
         // Функция для добавления прокси только к картинкам с конкретного адреса
         function addProxy(url) {
-            if (url.startsWith(targetUrl)) { // Проверяем, начинается ли URL с нужного адреса
-                return proxyUrl + url; // Добавляем прокси-домен перед исходным URL
-            }
+            if (url.includes(targetDomain)) {
+		if (url.startsWith(targetDomain) && (url.endsWith('.jpg') || url.endsWith('.png'))) {
+    		return proxyUrl + url;
+	}
+		}
             return url; // Оставляем остальные URL без изменений
         }
 
