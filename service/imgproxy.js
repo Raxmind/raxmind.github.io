@@ -1,7 +1,7 @@
 (function(plugin) {
-    plugin.id = "selective-proxy";
+    plugin.id = "kinopoisk-proxy";
     plugin.version = "1.0.0";
-    plugin.name = "Image Proxy Plugin";
+    plugin.name = "Kinopoisk Image Proxy Plugin";
 
     plugin.init = function() {
         // Прокси-домен
@@ -10,21 +10,20 @@
         // Адрес, который нужно проксировать
         const targetUrl = "https://kinopoiskapiunofficial.tech/images/";
 
-        // Функция для добавления прокси только к определенным URL
+        // Функция для добавления прокси только к картинкам с конкретного адреса
         function addProxy(url) {
             if (url.startsWith(targetUrl)) { // Проверяем, начинается ли URL с нужного адреса
-                if (!url.startsWith(proxyUrl)) { // Исключаем уже проксированные URL
-                    return proxyUrl + url;
-                }
+                return proxyUrl + url; // Добавляем прокси-домен перед исходным URL
             }
-            return url; // Возвращаем оригинальный URL, если он не соответствует targetUrl
+            return url; // Оставляем остальные URL без изменений
         }
 
         // Перехват запросов к изображениям
         Lampa.Listener.follow('image', function(event) {
             if (event.url) {
-                event.url = addProxy(event.url);
-                console.log(`Обработанный URL изображения: ${event.url}`);
+                const originalUrl = event.url;
+                event.url = addProxy(event.url); // Проксируем, если нужно
+                console.log(`Обработано изображение: ${originalUrl} -> ${event.url}`);
             }
         });
 
