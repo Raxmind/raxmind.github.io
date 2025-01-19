@@ -7,24 +7,24 @@
         // Прокси-домен
         const proxyUrl = "https://cors.fenixx04412.workers.dev/";
 
-        // Домен, который нужно проксировать
-        const targetDomain = "kinopoiskapiunofficial.tech";
+        // Адрес, который нужно проксировать
+        const targetUrl = "https://kinopoiskapiunofficial.tech/images/";
 
         // Функция для добавления прокси только к определенным URL
         function addProxy(url) {
-            if (url.includes(targetDomain)) {
-                if (!url.startsWith(proxyUrl)) {
+            if (url.startsWith(targetUrl)) { // Проверяем, начинается ли URL с нужного адреса
+                if (!url.startsWith(proxyUrl)) { // Исключаем уже проксированные URL
                     return proxyUrl + url;
                 }
             }
-            return url; // Возвращаем оригинальный URL, если он не совпадает с targetDomain
+            return url; // Возвращаем оригинальный URL, если он не соответствует targetUrl
         }
 
         // Перехват запросов к изображениям
         Lampa.Listener.follow('image', function(event) {
             if (event.url) {
                 event.url = addProxy(event.url);
-                console.log(`Изображение проксировано: ${event.url}`);
+                console.log(`Обработанный URL изображения: ${event.url}`);
             }
         });
 
