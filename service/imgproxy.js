@@ -8,7 +8,7 @@
         const proxyUrl = "https://cors.fenixx04412.workers.dev/";
 
         // Домен, который нужно проксировать
-	const targetDomain = "kinopoiskapiunofficial.tech";
+	const targetDomain = "st.kp.yandex.net";
 
         // Функция для добавления прокси только к картинкам с конкретного адреса
         function addProxy(url) {
