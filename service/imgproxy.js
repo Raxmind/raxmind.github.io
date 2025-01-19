@@ -7,13 +7,13 @@
         // Прокси-домен
         const proxyUrl = "https://cors.fenixx04412.workers.dev/";
 
-        // Домен, который нужно проксировать
-	const targetDomain = "st.kp.yandex.net";
+        // Домены, которые нужно проксировать
+	const targetDomains = ["kinopoiskapiunofficial.tech", "st.kp.yandex.net", "avatars.mds.yandex.net"];
 
-        // Функция для добавления прокси только к картинкам с конкретного адреса
+        // Функция для добавления прокси только к картинкам с конкретных адресов
         function addProxy(url) {
-            if (url.includes(targetDomain)) {
-		if (url.startsWith(targetDomain) && (url.endsWith('.jpg') || url.endsWith('.png'))) {
+            if (url.includes(targetDomains)) {
+		if (url.startsWith(targetDomains) && (url.endsWith('.jpg') || url.endsWith('.png'))) {
     		return proxyUrl + url;
 	}
 		}
