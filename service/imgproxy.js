@@ -25,8 +25,14 @@
             var originalUrl = event.url;
             var proxiedUrl = addProxy(originalUrl);
             if (originalUrl !== proxiedUrl) {
-                event.url = proxiedUrl;
-                console.log("Обработано изображение:", originalUrl, "->", event.url);
+                Object.defineProperty(event, 'url', {
+                    get: function () {
+                        return proxiedUrl;
+                    },
+                    set: function () {},
+                    configurable: true
+                });
+                console.log("Обработано изображение:", originalUrl, "->", proxiedUrl);
             }
         }
     });
