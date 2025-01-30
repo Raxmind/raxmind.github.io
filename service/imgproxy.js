@@ -24,6 +24,6 @@
                 event.url = addProxy(event.url); // Проксируем, если нужно
                 console.log(`Обработано изображение: ${originalUrl} -> ${event.url}`);
             }
-        })
+        });
 
 })();
