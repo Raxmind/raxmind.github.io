@@ -10,8 +10,10 @@
     // Функция для добавления прокси только к картинкам с конкретных адресов
     function addProxy(url) {
         for (var i = 0; i < targetDomains.length; i++) {
-            if (url.indexOf(targetDomains[i]) !== -1 && (url.indexOf('.jpg') !== -1 || url.indexOf('.png') !== -1)) {
-                return proxyUrl + url;
+            if (url.indexOf(targetDomains[i]) !== -1) {
+                if (url.match(/\.(jpg|png)$/)) {
+                    return proxyUrl + url;
+                }
             }
         }
         return url; // Оставляем остальные URL без изменений
