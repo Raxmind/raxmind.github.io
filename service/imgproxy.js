@@ -19,10 +19,13 @@
 
     // Перехват запросов к изображениям
     Lampa.Listener.follow('image', function (event) {
-        if (event.url) {
+        if (event && event.url) {
             var originalUrl = event.url;
-            event.url = addProxy(event.url); // Проксируем, если нужно
-            console.log("Обработано изображение: " + originalUrl + " -> " + event.url);
+            var proxiedUrl = addProxy(originalUrl);
+            if (originalUrl !== proxiedUrl) {
+                event.url = proxiedUrl;
+                console.log("Обработано изображение:", originalUrl, "->", event.url);
+            }
         }
     });
 })();
