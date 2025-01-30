@@ -11,8 +11,8 @@
     function addProxy(url) {
         for (var i = 0; i < targetDomains.length; i++) {
             if (url.indexOf(targetDomains[i]) !== -1) {
-                if (url.match(/\.(jpg|png)$/)) {
-                    return proxyUrl + url;
+                if (/https?:\/\//.test(url) && url.match(/\.(jpg|png)$/)) {
+                    return proxyUrl + encodeURIComponent(url);
                 }
             }
         }
