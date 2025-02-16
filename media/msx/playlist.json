@@ -33,45 +33,9 @@
    "items": [
       {
          "resumeKey": "video1",
-         "label": "Погребальные костры",
-         "playerLabel": "Погребальные костры",
-         "action": "video:https://calypso.sambray.org/ed27e39314fc39303fea6114269039e6:2024101408:RUJ6OTlCdkV1MzZuUG5PU0V2L2pwelp2WEp0a08rOStFRmd2cWdBd1NxenV3Skh4RDFwZTJVaVdRaWNiZG1NaE9naWJqcEkvaEpYSEZ3eG9lSWNqcUE9PQ==/9/5/6/3/6/0/xu6q2.mp4"
-      },
-      {
-         "resumeKey": "video2",
-         "label": "Семейка монстров",
-         "playerLabel": "Семейка монстров",
-         "action": "video:https://athens.sambray.org/cb9eb7f682a5fb06c4ab5244d4098c15:2024101408:RUJ6OTlCdkV1MzZuUG5PU0V2L2pwelp2WEp0a08rOStFRmd2cWdBd1NxenV3Skh4RDFwZTJVaVdRaWNiZG1NaFVPanRweG1hL1g3TC9oUytJbU5vRVE9PQ==/9/4/8/5/9/0/k6ib9.mp4"
-      },
-      {
-         "resumeKey": "video3",
-         "label": "Чёрное лицо",
-         "playerLabel": "Чёрное лицо",
-         "action": "video:https://dysprosium.sambray.org/760954c73f78ddda0a3d76a6dc3f04bf:2024101408:RUJ6OTlCdkV1MzZuUG5PU0V2L2pwelp2WEp0a08rOStFRmd2cWdBd1NxenV3Skh4RDFwZTJVaVdRaWNiZG1NaHpLTXlUUFZjWWFySmVxYi9LVUN1L2c9PQ==/9/4/4/2/1/5/g1wwd.mp4"
-      },
-      {
-         "resumeKey": "video4",
-         "label": "Не родись красивой",
-         "playerLabel": "Не родись красивой",
-         "action": "video:https://harmony.sambray.org/72388041b20863b04aad170aa440bb76:2024101408:RUJ6OTlCdkV1MzZuUG5PU0V2L2pwelp2WEp0a08rOStFRmd2cWdBd1NxenV3Skh4RDFwZTJVaVdRaWNiZG1NaGh4ZTA3VHZqaTE5Q1dpS1hxUFZua0E9PQ==/9/3/9/3/3/7/2268v.mp4"
-      },
-      {
-         "resumeKey": "video5",
-         "label": "Убийца № 1",
-         "playerLabel": "Убийца № 1",
-         "action": "video:https://pixel.sambray.org/4d34b28b1cefe34f0b36bc2b3e9a7d3a:2024101409:RUJ6OTlCdkV1MzZuUG5PU0V2L2pwOGJyaFE5WVVmM3lWNDFSWldUM0o5ZFZWTXEyeUVVV016c0xFQnFUTHY3QlN2QlcvQTJtck54cDRhZmFpZ0VHU0E9PQ==/9/3/5/1/5/4/4e540.mp4"
-      },
-      {
-         "resumeKey": "video6",
-         "label": "Монстр с донских берегов",
-         "playerLabel": "Монстр с донских берегов",
-         "action": "video:https://ranger.sambray.org/4061ca2019ae8952f87bc9501f4a779b:2024101409:RUJ6OTlCdkV1MzZuUG5PU0V2L2pwOGJyaFE5WVVmM3lWNDFSWldUM0o5ZFZWTXEyeUVVV016c0xFQnFUTHY3QkRzazJJeHZOVVo4aEE0U3lVUE9XWXc9PQ==/9/3/1/0/1/0/f5ttb.mp4"
-      },
-      {
-         "resumeKey": "video7",
-         "label": "Тёщины тайны",
-         "playerLabel": "Тёщины тайны",
-         "action": "video:https://hydrus.sambray.org/8ee1648b2817eb7135c1492d80efdf74:2024101409:RUJ6OTlCdkV1MzZuUG5PU0V2L2pwOGJyaFE5WVVmM3lWNDFSWldUM0o5ZFZWTXEyeUVVV016c0xFQnFUTHY3QjlJTWxObUttUjNKc3lnMVBJd1FjdHc9PQ==/9/2/6/5/2/0/b9lqu.mp4"
+         "label": "ОДИН В ОДИН - 6 СЕЗОН, 5 ВЫПУСК",
+         "playerLabel": "ОДИН В ОДИН - 6 СЕЗОН, 5 ВЫПУСК",
+         "action": "video:https://v.mover.uz/2OwUfHaQ_h.mp4"
       },
       {
          "enumerate": false,
