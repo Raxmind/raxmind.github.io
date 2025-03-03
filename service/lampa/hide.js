@@ -7,7 +7,6 @@
 				$(".open--feed").remove();
 				$(".open--premium").remove();
 				$(".open--notice").remove();
-				$("[data-action=mytorrents]").eq(0).remove();
 				$("[data-action=feed]").eq(0).remove();
 				$("[data-action=myperson]").eq(0).remove();
 				$("[data-action=anime]").eq(0).remove();
