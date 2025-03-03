@@ -3,6 +3,9 @@
 Lampa.Listener.follow('app',(e)=>{
         if(e.type == 'ready'){
 			setTimeout(function(){
+				$(".open--feed").remove();
+				$(".open--premium").remove();
+				$(".open--notice").remove();
 				$("[data-action=mytorrents]").eq(0).remove();
 				$("[data-action=feed]").eq(0).remove();
 				$("[data-action=myperson]").eq(0).remove();
