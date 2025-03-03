@@ -1,8 +1,9 @@
 (function () {
     'use strict';
-Lampa.Listener.follow('app',(e)=>{
+	Lampa.Listener.follow('app',(e)=>{
         if(e.type == 'ready'){
 			setTimeout(function(){
+				$(".open--profile").remove();
 				$(".open--feed").remove();
 				$(".open--premium").remove();
 				$(".open--notice").remove();
