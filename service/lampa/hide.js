@@ -5,7 +5,7 @@ Lampa.Listener.follow('app',(e)=>{
 			setTimeout(function(){
 				$("[data-action=mytorrents]").eq(0).remove();
 				$("[data-action=feed]").eq(0).remove();
-				$("[data-action=persons]").eq(0).remove();
+				$("[data-action=myperson]").eq(0).remove();
 				$("[data-action=anime]").eq(0).remove();
 				$("[data-action=subscribes]").eq(0).remove();
 				$("[data-action=timetable]").eq(0).remove();
