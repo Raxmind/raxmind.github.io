@@ -4,6 +4,7 @@
         if(e.type == 'ready'){
 			setTimeout(function(){
 				$(".head__logo-icon").html("<img src=http://lampa.mx/img/logo-icon.svg>");
+				$(".head__logo-cap").remove();
 				$(".open--profile").remove();
 				$(".open--feed").remove();
 				$(".open--premium").remove();
