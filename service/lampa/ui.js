@@ -3,8 +3,7 @@
 	Lampa.Listener.follow('app',(e)=>{
         if(e.type == 'ready'){
 			setTimeout(function(){
-				$(".head__logo-icon").replaceWith("<div class=head__logo-icon><img src=http://bylampa.online/img/logo-icon.svg></div>");
-				$(".head__logo-icon").remove();
+				$(".head__logo-icon").html("<div class=head__logo-icon><img src=http://lampa.mx/img/logo-icon.svg></div>");
 				$(".open--profile").remove();
 				$(".open--feed").remove();
 				$(".open--premium").remove();
