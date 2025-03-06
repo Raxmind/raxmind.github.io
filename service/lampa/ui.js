@@ -3,6 +3,7 @@
 	Lampa.Listener.follow('app',(e)=>{
         if(e.type == 'ready'){
 			setTimeout(function(){
+				$('.search-source.selector:contains("head__logo-icon")').append("<img src='http://bylampa.online/img/logo-icon.svg'>");
 				$(".open--profile").remove();
 				$(".open--feed").remove();
 				$(".open--premium").remove();
