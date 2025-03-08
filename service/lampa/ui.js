@@ -10,7 +10,7 @@
 				$("[data-action=anime]").eq(0).remove();
 				$("[data-action=timetable]").eq(0).remove();
 				$("[data-action=console]").eq(0).remove();
-				$(".full-start__status:contains('Онгоинг')").html("В процессе");
+				$("#app .full-start__status:contains('Онгоинг')").html("В процессе");
 			},10);
         }
     });
