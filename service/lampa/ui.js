@@ -6,6 +6,10 @@
 				$(".head__logo-icon").html("<img src=http://lampa.mx/img/logo-icon.svg>");
 				$(".head__logo-cap").remove();
 				$(".head__logo-halloween").remove();
+				$(".open--broadcast").remove();
+				$("[data-action=anime]").eq(0).remove();
+				$("[data-action=timetable]").eq(0).remove();
+				$("[data-action=console]").eq(0).remove();
 			},10);
         }
     });
