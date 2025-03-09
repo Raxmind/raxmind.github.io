@@ -34,8 +34,8 @@
       {
          "resumeKey": "video1",
          "label": "ОДИН В ОДИН - 6 СЕЗОН, 7 ВЫПУСК",
-         "playerLabel": "ОДИН В ОДИН - 6 СЕЗОН, 6 ВЫПУСК",
-         "action": "video:https://cors.fx666.workers.dev:8443/https://v.mover.uz/LCpgpbZ_h.mp4"
+         "playerLabel": "ОДИН В ОДИН - 6 СЕЗОН, 7 ВЫПУСК",
+         "action": "video:https://v.mover.uz/LCpgpbZ_h.mp4"
       },
       {
          "enumerate": false,
