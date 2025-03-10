@@ -12,22 +12,14 @@
 				$("[data-action=console]").eq(0).remove();
 			},10);
         }
-    });
+});
 
-
-
-
-    Lampa.Listener.follow('full', function(e) {
-        if (e.type == 'complite') {
+	Lampa.Listener.follow('full', function(e){
+		if (e.type == 'complite'){
 			setTimeout(function(){
 				$(".full-start__status",Lampa.Activity.active().activity.render()).css({'display':'none'});
 			},10);
-	   }
-    })
+	}
+})
 
-
-
-	
-
-	
 })();
