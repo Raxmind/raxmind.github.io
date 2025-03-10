@@ -17,7 +17,10 @@
 	Lampa.Listener.follow('full', function(e){
 		if (e.type == 'complite'){
 			setTimeout(function(){
-				$(".full-start__status",Lampa.Activity.active().activity.render()).css({'display':'none'});
+				$(".full-start__status").remove();
+				//$(".full-start__status",Lampa.Activity.active().activity.render()).css({'display':'none'});
+				//$('.full-start__status').html($('.full-start__status').html().replace('Онгоинг','Не завершено').replace('Выпущенный','Выпущено'));
+				//$(".full-start__status",Lampa.Activity.active().activity.render()).html($('.full-start__status').html().replace('Онгоинг','Не завершено').replace('Выпущенный','Выпущено'));
 			},10);
 	}
 })
